@@ -26,7 +26,6 @@ class StateProvider extends Component {
 
     addNew(text) {
         let updatedList = addToList(this.state.list, {text, completed: false});
-
         this.setState({list: updatedList});
     }
 
@@ -36,7 +35,6 @@ class StateProvider extends Component {
 
     changeStatus(itemId, completed) {
         const updatedList = updateStatus(this.state.list, itemId, completed);
-
         this.setState({list: updatedList});
     }
 

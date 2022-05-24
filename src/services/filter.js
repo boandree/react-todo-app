@@ -26,8 +26,8 @@ export function search(list, query) {
 
 export function getOptions() {
     return {
-        [FILTER_ALL]: 'All',
-        [FILTER_ACTIVE]: 'Active',
-        [FILTER_COMPLETED]: 'Completed'
+        [FILTER_ALL]: 'Alle',
+        [FILTER_ACTIVE]: 'Ufullførte',
+        [FILTER_COMPLETED]: 'Ferdige'
     };
 }

@@ -8,10 +8,10 @@ export default function ButtonWrapper(props) {
 
     return (
         <div>
-            <a title="Add New"
+            <a title="Legg til ny ting"
                 className={'button add ' + (isCreateMode() ? 'selected' : '')}
                 onClick={() => changeMode(isCreateMode() ? MODE_NONE : MODE_CREATE)}></a>
-            <a title="Search"
+            <a title="Søk"
                 className={'button search ' + (isSearchMode() ? 'selected' : '')}
                 onClick={() => changeMode(isSearchMode() ? MODE_NONE : MODE_SEARCH)}></a>
         </div>
